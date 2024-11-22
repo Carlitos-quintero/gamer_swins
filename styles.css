@@ -1,0 +1,105 @@
+/* Estilo para el navbar */
+.navbar {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ff4a4a;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffb3b3 !important;
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 60vh;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* Cards en la sección de características */
+#features .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#features .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+#features .card-title {
+    color: #ff4a4a;
+    font-weight: bold;
+}
+#features .card-text {
+    font-size: 0.9rem;
+}
+
+/* Sección de testimonios */
+#testimonials h2 {
+    font-weight: bold;
+    color: #333;
+}
+#testimonials .card {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+#testimonials .card-text {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Botón de llamada a la acción */
+.btn-primary {
+    background-color: #ff4a4a;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #ff6a6a;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer a {
+    color: #ffb3b3;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ff4a4a;
+}
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #features .card-title {
+        font-size: 1.1rem;
+    }
+    #testimonials h2 {
+        font-size: 1.5rem;
+    }
+    .btn-primary {
+        font-size: 1rem;
+    }
+}
+.carousel-inner img {
+    height: 100vh ;
+}
